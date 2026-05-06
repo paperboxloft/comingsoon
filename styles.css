@@ -42,6 +42,7 @@ img {
 }
 
 #logo {
+    width: 50%;
     max-width: 50%;
     vertical-align: middle;
     border-style: none;
