@@ -42,10 +42,11 @@ img {
 }
 
 #logo {
-    height: 5vh;
+    max-width: 50%;
     vertical-align: middle;
     border-style: none;
     box-sizing: border-box;
+    position: relative;
 }
 @media screen and (max-width: 720px) {
     #mainDiv {
@@ -61,11 +62,6 @@ img {
         flex-direction: column !important;
     }
 
-    #logo {
-        height: 125px;
-        vertical-align: middle;
-        position: relative;
-    }
 }
 #MainText {
     color: #000000;
